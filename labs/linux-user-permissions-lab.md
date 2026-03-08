@@ -7,6 +7,10 @@ Bash Shell
 ## Objective
 Understand Linux user identities, authentication storage, group membership, and file permission enforcement.
 
+This lab demonstrates core Linux security concepts including
+user identity verification, authentication file protection,
+file permission enforcement, and SUID privilege behavior.
+
 ## User Identity Verification
 
 Commands used:
