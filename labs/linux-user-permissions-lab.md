@@ -47,10 +47,12 @@ These commands verify the current user identity, display the user and group IDs,
 
 Commands used:
 
+```bash
 ls /home
 su - analyst
 whoami
 pwd
+```
 
 Purpose:
 
@@ -62,8 +64,10 @@ This demonstrates switching between users and confirms the current working direc
 
 Commands used:
 
+```bash
 cat /etc/shadow
 sudo cat /etc/shadow
+```
 
 Purpose:
 
@@ -75,9 +79,11 @@ This demonstrates that the /etc/shadow file containing password hashes is protec
 
 Commands used:
 
+```bash
 chmod 000 test.txt
 ls -l
 cat test.txt
+```
 
 Purpose:
 
@@ -104,6 +110,7 @@ Inspected special permission behavior by reviewing the SUID configuration on the
 
 ## Commands Practiced
 
+```bash
 whoami  
 id  
 su  
@@ -116,6 +123,7 @@ sudo cat shadow
 touch  
 chmod  
 ls -l passwd
+```
 
 ## Key Learning Outcomes
 
@@ -130,7 +138,9 @@ Special permission bits such as SUID allow specific programs to run securely wit
 
 Command used:
 
+```bash
 ls -l /usr/bin/passwd
+```
 
 Output:
 
