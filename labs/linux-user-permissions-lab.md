@@ -35,6 +35,7 @@ Commands used:
 whoami
 id
 sudo whoami
+---bash
 
 Purpose:
 
