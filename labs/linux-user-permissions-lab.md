@@ -1,4 +1,4 @@
-# Linux Security & User Management Lab
+# Linux Security: User Identity & Permission Management Lab
 
 ## Environment
 Ubuntu Linux Virtual Machine (VirtualBox)
@@ -10,6 +10,22 @@ Understand Linux user identities, authentication storage, group membership, and 
 This lab demonstrates core Linux security concepts including
 user identity verification, authentication file protection,
 file permission enforcement, and SUID privilege behavior.
+
+## Lab Overview
+
+This lab explores fundamental Linux security mechanisms related to user identity, authentication storage, and file permission enforcement.
+
+Through practical command-line exercises, the lab demonstrates how Linux isolates user privileges, protects authentication data, and enforces access controls through file permissions.
+
+Key concepts explored include:
+
+- User identity and group membership
+- Privilege escalation using sudo
+- Protection of authentication files such as `/etc/shadow`
+- File permission enforcement using `chmod`
+- Special permissions such as **SUID**
+
+  
 
 ## User Identity Verification
 
