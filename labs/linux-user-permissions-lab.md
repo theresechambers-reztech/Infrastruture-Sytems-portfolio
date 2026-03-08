@@ -31,11 +31,11 @@ Key concepts explored include:
 
 Commands used:
 
----bash
+```bash
 whoami
 id
 sudo whoami
----bash
+```
 
 Purpose:
 
