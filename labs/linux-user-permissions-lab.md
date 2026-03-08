@@ -31,6 +31,7 @@ Key concepts explored include:
 
 Commands used:
 
+---bash
 whoami
 id
 sudo whoami
