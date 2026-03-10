@@ -163,6 +163,27 @@ The lab was verified by successfully:
 - successfully pinging `8.8.8.8` with **0% packet loss**
 - displaying socket information using `ss`
 
+### Process creation
+
+<img width="769" height="445" alt="01-process-creation" src="https://github.com/user-attachments/assets/d6c0e640-1c6b-4bcc-bd55-b4e967e7922b" />
+
+
+### Process identification
+
+<img width="761" height="439" alt="02-process-discovery" src="https://github.com/user-attachments/assets/a9326ab8-de6a-4e0b-a316-6e41a1f00868" />
+
+
+### Process termination
+
+<img width="769" height="442" alt="03-process-termination" src="https://github.com/user-attachments/assets/1876221a-01d2-46a6-b605-795bdf0e26b7" />
+
+
+### Internet connectivity test
+
+<img width="767" height="450" alt="04-network-verification" src="https://github.com/user-attachments/assets/8b54a43d-bcbd-41df-8207-9006289adf51" />
+
+
+
 ## Outcome
 This lab demonstrated foundational Linux operational skills including:
 
