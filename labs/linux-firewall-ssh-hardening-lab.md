@@ -68,7 +68,7 @@ tcp LISTEN 0.0.0.0:22
 tcp LISTEN [::]:22
 ```
 
-### Screenshot – SSH Service Listening on Port 22
+### Figure 1 — SSH Service Listening on Port 22
 
 <img width="769" height="448" alt="01-port-22-listening" src="https://github.com/user-attachments/assets/21151bff-3fe1-4f89-9103-e58962b57b7b" />
 
@@ -131,7 +131,7 @@ Result:
 ```
 Firewall is active and enabled on system startup
 ```
-### Screenshot – Firewall Activation
+### Figure 2 — Firewall Activation
 
 <img width="764" height="459" alt="02-firewall-enabled" src="https://github.com/user-attachments/assets/d6d0083e-d14d-47f4-80bf-c1207580899d" />
 
@@ -159,7 +159,7 @@ Default: deny (incoming), allow (outgoing)
 22/tcp (v6) ALLOW IN Anywhere (v6)
 ```
 
-### Screenshot – Firewall Rules Verification
+### Figure 3 — Firewall Rules Verification
 
 <img width="765" height="456" alt="03-firewall-rules-verification" src="https://github.com/user-attachments/assets/608f3dfd-a40d-4d6a-8d11-8233310720a6" />
 
@@ -190,7 +190,7 @@ Result:
 This confirms that outbound traffic is still permitted while inbound traffic remains restricted by the firewall.
 
 
-### Screenshot – Successful Connectivity Test
+### Figure 4 — Successful Outbound Connectivity Test
 
 <img width="769" height="466" alt="04-ping-8 8 8 8-successful" src="https://github.com/user-attachments/assets/4fc4f785-9491-46f2-851c-8cf1de4389b4" />
 
@@ -206,6 +206,17 @@ Evidence of the lab steps was captured through screenshots including:
 - firewall rule verification
 - successful outbound connectivity test
 
+
+## Commands Executed
+
+```bash
+ss -tuln
+sudo apt install openssh-server
+sudo ufw allow ssh
+sudo ufw enable
+sudo ufw status verbose
+ping 8.8.8.8
+
 ---
 
 ## Outcome
@@ -218,6 +229,10 @@ This lab demonstrated the following Linux infrastructure operations:
 - port exposure management
 - firewall rule verification
 - outbound connectivity testing
+
+It also demonstrates the ability to identify exposed services,
+configure secure remote access, and enforce firewall policies
+to reduce system attack surface.
 
 ---
 
