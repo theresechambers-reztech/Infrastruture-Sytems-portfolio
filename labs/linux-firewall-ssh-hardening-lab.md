@@ -216,7 +216,7 @@ sudo ufw allow ssh
 sudo ufw enable
 sudo ufw status verbose
 ping 8.8.8.8
----
+```
 
 
 ## Outcome
