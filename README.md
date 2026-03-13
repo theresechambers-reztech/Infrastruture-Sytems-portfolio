@@ -6,13 +6,25 @@ The labs simulate real-world infrastructure scenarios using Ubuntu Linux virtual
 
 ## Table of Contents
 
+- What You'll Find Here
 - Lab Environment Architecture
-- What you'll find here
 - Lab Environment
 - Repository Structure
 - Infrastructure Labs
 - Incident Analysis / Case Studies
 - Future Lab Roadmap
+
+## What You'll Find Here
+
+This portfolio documents hands-on infrastructure engineering labs and operational scenarios designed to build practical experience in Linux systems, networking, virtualization, and cloud infrastructure.
+
+The repository contains structured lab environments, system configuration exercises, and infrastructure troubleshooting scenarios that simulate real-world operations and systems engineering tasks.
+
+Topics explored throughout the labs include system monitoring, access control, network configuration, firewall management, SSH security, and virtual machine networking.
+
+Each lab is documented with clear explanations of the environment, commands used, and the operational purpose behind the configuration. The documentation is written to be understandable for both technical and non-technical audiences.
+
+This portfolio will continue expanding as additional infrastructure labs, operational scenarios, and architecture-focused exercises are completed.
 
 
 ## Lab Environment Architecture
@@ -32,13 +44,7 @@ Each lab includes documentation of the environment, configuration steps, command
 The goal of this portfolio is to demonstrate **how I think**, not just what tools or certifications I have.  
 Each entry focuses on problem identification, decision-making, troubleshooting steps, and lessons learned.
 
-## What you’ll find here
-- Troubleshooting case studies (real-world scenarios)
-- Networking and cybersecurity labs
-- Cloud fundamentals and architecture notes
-- Clear documentation written for both technical and non-technical audiences
 
-This portfolio will continue to evolve as I complete additional labs, certifications, and projects.
 
 ## Lab Environment
 
