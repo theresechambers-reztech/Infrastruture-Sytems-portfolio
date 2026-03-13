@@ -30,14 +30,26 @@ This portfolio will continue expanding as additional infrastructure labs, operat
 ## Lab Environment Architecture
 
 ```
-Host Computer (Physical Machine)
+Host Machine (Lenovo T495)
+        │
         │
    VirtualBox Hypervisor
         │
-   Ubuntu Linux Virtual Machines
         │
-   Internal VM Network
+ Ubuntu Linux Virtual Machines
+        │
+        ├── Linux Firewall & SSH Hardening Lab
+        ├── Linux System Monitoring & Network Diagnostics
+        ├── Linux User Permissions & Access Control
+        └── VM Network Segmentation Lab
 ```
+
+The lab environment runs on a local host system using VirtualBox to create isolated Ubuntu Linux virtual machines. 
+
+Each virtual machine is configured for specific infrastructure scenarios such as system monitoring, firewall configuration, user access control, and network segmentation.
+
+This environment allows experimentation with real system administration tasks while maintaining a safe and reproducible infrastructure lab.
+
 
 Each lab includes documentation of the environment, configuration steps, commands used, and verification testing.
 
