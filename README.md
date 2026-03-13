@@ -1,8 +1,19 @@
-# Infrastructure Systems Portfolio – Therese Chambers (Reztech)
+# Infrastructure Systems Engineering Portfolio – Therese Chambers (Reztech)
 
 This repository documents hands-on infrastructure labs built to develop practical experience in Linux administration, networking, virtualization, and system security.
 
 The labs simulate real-world infrastructure scenarios using Ubuntu Linux virtual machines running in VirtualBox.
+
+## Table of Contents
+
+- Lab Environment Architecture
+- What you'll find here
+- Lab Environment
+- Repository Structure
+- Infrastructure Labs
+- Incident Analysis / Case Studies
+- Future Lab Roadmap
+
 
 ## Lab Environment Architecture
 
