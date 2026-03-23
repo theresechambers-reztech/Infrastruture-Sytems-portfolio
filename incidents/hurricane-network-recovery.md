@@ -1,7 +1,7 @@
 # Hurricane-Related Network Outage Recovery
 
 ## Context
-Following a nationwide hurricane that disrupted power and communications infrastructure across Jamaica, most surrounding homes regained internet access, once grid power was restored. However, my home network remained offline while neighboring connections using the same ISP were functional. This document outlines the assessment process and resolution steps taken to restore connectivity following the disaster.
+Following a nationwide hurricane (Melissa) that disrupted power and communications infrastructure across Jamaica, most surrounding homes regained internet access, once grid power was restored. However, my home network remained offline while neighboring connections using the same ISP were functional. This document outlines the assessment process and resolution steps taken to restore connectivity following the disaster.
 
 ## Initial Symptoms
 The modem powered on normally with solid Power and DS/US indicators, but the Online LED continued blinking and never fully registered. All connected devices showed “Connected without Internet,” despite stable power and confirmed service availability in nearby homes.
